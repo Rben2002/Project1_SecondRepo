@@ -164,7 +164,7 @@ public class Rectangle {
        
         // Check if the rectangle is out of the world box
         return (xCoordinate < 0 || yCoordinate < 0 || 
-            xCoordinate + width >= 1024 || yCoordinate + height >= 1024 
+            xCoordinate + width > 1024 || yCoordinate + height > 1024 
             || width <= 0 || height <= 0);
     
         
